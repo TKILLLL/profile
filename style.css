@@ -1,0 +1,123 @@
+html {
+    background: rgb(255, 0, 227);
+    background: linear-gradient(225deg, rgba(255, 0, 227, 1) 0%, rgba(25, 95, 146, 1) 0%, rgba(85, 73, 120, 1) 100%);
+    background-attachment: fixed;
+}
+
+h1,
+p,
+button, span {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.all {
+    background-color: #3c3d4a;
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 9px 24px 3px rgba(60, 61, 74, 0.65);
+    -webkit-box-shadow: 5px 9px 24px 3px rgba(60, 61, 74, 0.65);
+    -moz-box-shadow: 5px 9px 24px 3px rgba(60, 61, 74, 0.65);
+}
+
+#top {
+    padding: 50px 50px 20px 40px;
+}
+
+.head {
+    background-color: #393443;
+    border-radius: 25px 25px 0 0;
+    margin-bottom: 2px;
+}
+
+.head img {
+    border-radius: 100%;
+    width: 60px;
+    border: 1px double #896bff;
+    margin-left: 5px;
+    margin-top: 4.5px;
+
+}
+
+.border {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #896bff;
+    background-color: #393443;
+
+}
+
+#top h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+#top p {
+    font-style: italic;
+    padding-right: 20px;
+}
+
+.wrapper {
+    background-color: #393443;
+    margin-bottom: 2px;
+}
+
+#main {
+    padding: 25px 0 25px 50px;
+}
+
+#main i {
+    padding-right: 4px;
+}
+
+button {
+    background-color: #393443;
+    border-radius: 5px;
+    border: 2px solid #896bff;
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.end {
+    background-color: #393443;
+    height: 100px;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 5px 9px 24px 3px rgba(60, 61, 74, 0.65);
+    -webkit-box-shadow: 5px 9px 24px 3px rgba(60, 61, 74, 0.65);
+    -moz-box-shadow: 5px 9px 24px 3px rgba(60, 61, 74, 0.65);
+}
+
+#bottom {
+    padding-top: 23px;
+    padding-left: 30px;
+}
+
+#bottom button {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    font-size: 30px;
+}
+
+body {
+    margin: 80px 0 80px 600px;
+}
+
+.btn {
+    transition: transform .2s;
+  }
+
+.btn:hover {
+    transform: scale(1.1);
+  }
